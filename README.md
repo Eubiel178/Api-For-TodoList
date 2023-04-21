@@ -71,15 +71,16 @@ DELETE ACCOUNT
   "urgency": "#FF0000" //campo nao obrigatorio
 }
 
-// --Urgency:
-//   #FF0000: Urgente
-//   #ffa500: Pouca urgencia
-//   #90ee90 : Pouca urgencia
-
 // Chave key usado para quando o for iterar sobre um array, basta quando for adicionar o item no backend enviar um numero aleatorio. Obs: os numeros nao podem se repetir,
 
 //O campo index e utilizado quando o programador deseja ordenar o array no frontend
 ```
+
+--Urgency:
+
+   <div color="#FF0000" border-radius="1em" width="1em" height="1em"></div>: Urgente
+   #ffa500: Pouca urgencia
+   #90ee90 : Pouca urgencia
 
 ## GET /list/user-id/:id
 

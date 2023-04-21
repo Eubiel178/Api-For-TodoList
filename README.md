@@ -66,12 +66,19 @@ DELETE ACCOUNT
   "isFinished": false,
   "userID": "test",
   "index": "2", //campo nao obrigatorio
-  "key":"", //campo nao obrigatorio
-  "_id":"" //campo nao obrigatorio
+  "key": "4", //campo nao obrigatorio
+  "_id": "23728478I02", //campo nao obrigatorio
+  "urgency": "#FF0000" //campo nao obrigatorio
 }
 
-chave key usado para quando o for iterar sobre um array, basta quando for adicionar o item no backend enviar um numero aleatorio e diferente,
-obs: os campos chave, index e _id so e enviado pelo front-end caso o programador deseje iterar sem ter que fazer um get toda vez que remover ou editar uma task
+// --Urgency:
+//   #FF0000: Urgente
+//   #ffa500: Pouca urgencia
+//   #90ee90 : Pouca urgencia
+
+// Chave key usado para quando o for iterar sobre um array, basta quando for adicionar o item no backend enviar um numero aleatorio. Obs: os numeros nao podem se repetir,
+
+//O campo index e utilizado quando o programador deseja ordenar o array no frontend
 ```
 
 ## GET /list/user-id/:id

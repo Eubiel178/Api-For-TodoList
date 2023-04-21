@@ -26,6 +26,10 @@ const userSchema = new mongoose.Schema({
     type: String,
     required: false,
   },
+  urgency: {
+    type: String,
+    required: false,
+  },
 });
 
 const TaskModel = mongoose.model("tasks", userSchema);

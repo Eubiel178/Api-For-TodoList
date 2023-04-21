@@ -78,7 +78,7 @@ DELETE ACCOUNT
 
 --Urgency:
 
-   <div color="#FF0000" border-radius="1em" width="1em" height="1em"></div>: Urgente
+   <div color="#FF0000" width="1em" height="1em"></div>: Urgente
    #ffa500: Pouca urgencia
    #90ee90 : Pouca urgencia
 
